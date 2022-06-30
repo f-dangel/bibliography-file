@@ -1404,16 +1404,14 @@
   tags =         {vivit},
 }
 
-@misc{chen2020selftuning,
+@article{chen2020selftuning,
   title =        {Self-Tuning Stochastic Optimization with Curvature-Aware
                   Gradient Filtering},
-  author =       {Ricky T. Q. Chen and Dami Choi and Lukas Balles and David
-                  Duvenaud and Philipp Hennig},
-  year =         2020,
-  eprint =       {2011.04803},
-  archivePrefix ={arXiv},
-  primaryClass = {cs.LG},
-  tags =         {vivit},
+  author =       {Chen, Ricky T. Q. and Choi, Dami and Balles, Lukas and
+                  Duvenaud, David and Hennig, Philipp},
+  journal =      {Advances in Neural Information Processing Systems (NeurIPS),
+                  Workshop I Can't Believe It's Not Better!},
+  year =         2020
 }
 
 @misc{krishnan2017neumann,
@@ -1839,16 +1837,6 @@
   eprint =       {2107.03356},
   archivePrefix ={arXiv},
   primaryClass = {cs.LG}
-}
-
-@misc{zhang2019fast,
-  title =        {Fast Convergence of Natural Gradient Descent for
-                  Overparameterized Neural Networks},
-  author =       {Guodong Zhang and James Martens and Roger Grosse},
-  year =         2019,
-  eprint =       {1905.10961},
-  archivePrefix ={arXiv},
-  primaryClass = {stat.ML}
 }
 
 @misc{ren2019efficient,
@@ -2281,21 +2269,14 @@
                   {https://academic.oup.com/ptj/article-pdf/81/4/1038/31683805/ptj1038.pdf},
 }
 
-@article{paszke0221getting,
-  author =       {Adam Paszke and Daniel D. Johnson and David Duvenaud and
-                  Dimitrios Vytiniotis and Alexey Radul and Matthew J. Johnson
-                  and Jonathan Ragan{-}Kelley and Dougal Maclaurin},
+@inproceedings{paszke2021getting,
   title =        {Getting to the Point. Index Sets and Parallelism-Preserving
                   Autodiff for Pointful Array Programming},
-  journal =      {CoRR},
-  volume =       {abs/2104.05372},
-  year =         2021,
-  url =          {https://arxiv.org/abs/2104.05372},
-  eprinttype =   {arXiv},
-  eprint =       {2104.05372},
-  timestamp =    {Mon, 25 Oct 2021 07:55:47 +0200},
-  biburl =       {https://dblp.org/rec/journals/corr/abs-2104-05372.bib},
-  bibsource =    {dblp computer science bibliography, https://dblp.org}
+  author =       {Paszke, Adam and Johnson, Daniel and Duvenaud, David and
+                  Vytiniotis, Dimitrios and Radul, Alexey and Johnson, Matthew
+                  and Ragan-Kelley, Jonathan and Maclaurin, Dougal},
+  booktitle =    {International Conference on Functional Programming},
+  year =         2021
 }
 
 @inproceedings{oktay2021randomized,
@@ -2485,4 +2466,34 @@
   booktitle =    {Advances in Neural Information Processing Systems (NeurIPS),
                   Workshop Privacy in Machine Learning},
   year =         2021,
+}
+
+@inproceedings{chen2019hollownet,
+  title =        {Neural Networks with Cheap Differential Operators},
+  author =       {Chen, Ricky T. Q. and Duvenaud, David},
+  booktitle =    {Advances in Neural Information Processing Systems (NeurIPS)},
+  year =         2019,
+}
+
+@software{maclaurin2015autograd,
+  author = {Dougal Maclaurin and David Duvenaud and Matthew Johnson and Ryan P. Adams},
+  title = {Autograd: Reverse-mode differentiation of native {P}ython},
+  year = {2015},
+}
+
+@article {maclaurin2019dex,
+  title =        {Dex: array programming with typed indices},
+  journal =      {Advances in Neural Information Processing Systems, Workshop
+                  Program Transformations},
+  year =         2019,
+  author =       {Dougal Maclaurin and Radul, Alexey and Johnson, Matthew J and
+                  Vytiniotis, Dimitrios}
+}
+
+@inproceedings{zhang2019fast,
+  author =       {Zhang, Guodong and Martens, James and Grosse, Roger B},
+  booktitle =    {Advances in Neural Information Processing Systems (NeurIPS)},
+  title =        {Fast Convergence of Natural Gradient Descent for
+                  Over-Parameterized Neural Networks},
+  year =         2019
 }
